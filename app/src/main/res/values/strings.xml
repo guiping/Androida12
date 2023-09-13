@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Bolesym</string>
+    <string name="home_title">Recommend avatars based on options</string>
+    <string name="home_cartoon">Cartoon</string>
+    <string name="home_classy">Classy</string>
+    <string name="home_youth">Youth</string>
+    <string name="home_cool">Cool</string>
+    <string name="home_lively">Lively</string>
+    <string name="choose_title">Choose Avatar</string>
+    <string name="choose_all_categories">All Categories</string>
+    <string name="set_up">Set up</string>
+    <string name="sure">Sure</string>
+    <string name="save">SAVE</string>
+    <string name="couple_avatar">Couple avatar</string>
+    <string name="sporty">Sporty</string>
+    <string name="handsome">handsome</string>
+    <string name="cool_boy">Cool Boy</string>
+    <string name="young_boy">Young Boy</string>
+    <string name="couple_avatar1">Couple avatar generated</string>
+    <string name="set_up_feedback">Feedback</string>
+    <string name="set_up_termof_use">Termof use</string>
+    <string name="failter_1">Failter 01</string>
+    <string name="failter_2">Failter 02</string>
+
+    <string name="stiler_1">Stiler 01</string>
+    <string name="stiler_2">Stiler 02</string>
+    <string name="download">Download</string>
+    <string name="change_avatar">change avatar</string>
+</resources>

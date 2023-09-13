@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--==================描边渐变layout start==============-->
+    <!--设置总圆角-->
+    <attr name="s_corner_radius" format="dimension" />
+    <attr name="s_top_left_radius" format="dimension" />
+    <attr name="s_top_right_radius" format="dimension" />
+    <attr name="s_bottom_left_radius" format="dimension" />
+    <attr name="s_bottom_right_radius" format="dimension" />
+    <!--描边粗细-->
+    <attr name="s_stroke_width" format="dimension" />
+    <!--描边渐变色-->
+    <attr name="s_stroke_gradient_start_color" format="color" />
+    <attr name="s_stroke_gradient_end_color" format="color" />
+    <attr name="s_stroke_gradient_center_color" format="color" />
+    <!--描边渐变色角度-->
+    <attr name="s_stroke_gradient_angle" format="enum">
+        <enum name="LEFT_RIGHT" value="0" />
+        <enum name="LEFT_TOP_BOTTOM_RIGHT" value="45" />
+        <enum name="TOP_BOTTOM" value="90" />
+        <enum name="RIGHT_TOP_BOTTOM_LEFT" value="135" />
+        <enum name="RIGHT_LEFT" value="180" />
+        <enum name="RIGHT_BOTTOM_TOP_LEFT" value="225" />
+        <enum name="BOTTOM_TOP" value="270" />
+        <enum name="LEFT_BOTTOM_TOP_RIGHT" value="315" />
+    </attr>
+    <!--填充渐变色-->
+    <attr name="s_solid_gradient_start_color" format="color" />
+    <attr name="s_solid_gradient_end_color" format="color" />
+    <attr name="s_solid_gradient_center_color" format="color" />
+    <!--填充渐变色角度-->
+    <attr name="s_solid_gradient_angle" format="enum">
+        <enum name="LEFT_RIGHT" value="0" />
+        <enum name="LEFT_TOP_BOTTOM_RIGHT" value="45" />
+        <enum name="TOP_BOTTOM" value="90" />
+        <enum name="RIGHT_TOP_BOTTOM_LEFT" value="135" />
+        <enum name="RIGHT_LEFT" value="180" />
+        <enum name="RIGHT_BOTTOM_TOP_LEFT" value="225" />
+        <enum name="BOTTOM_TOP" value="270" />
+        <enum name="LEFT_BOTTOM_TOP_RIGHT" value="315" />
+    </attr>
+
+    <declare-styleable name="SShapeLinearLayout">
+        <attr name="s_corner_radius" />
+        <attr name="s_top_left_radius" />
+        <attr name="s_top_right_radius" />
+        <attr name="s_bottom_left_radius" />
+        <attr name="s_bottom_right_radius" />
+        <attr name="s_stroke_width" />
+        <attr name="s_stroke_gradient_start_color" />
+        <attr name="s_stroke_gradient_end_color" />
+        <attr name="s_stroke_gradient_center_color" />
+        <attr name="s_stroke_gradient_angle" />
+        <attr name="s_solid_gradient_start_color" />
+        <attr name="s_solid_gradient_end_color" />
+        <attr name="s_solid_gradient_center_color" />
+        <attr name="s_solid_gradient_angle" />
+    </declare-styleable>
+    <declare-styleable name="SShapeFrameLayout">
+        <attr name="s_corner_radius" />
+        <attr name="s_top_left_radius" />
+        <attr name="s_top_right_radius" />
+        <attr name="s_bottom_left_radius" />
+        <attr name="s_bottom_right_radius" />
+        <attr name="s_stroke_width" />
+        <attr name="s_stroke_gradient_start_color" />
+        <attr name="s_stroke_gradient_end_color" />
+        <attr name="s_stroke_gradient_center_color" />
+        <attr name="s_stroke_gradient_angle" />
+        <attr name="s_solid_gradient_start_color" />
+        <attr name="s_solid_gradient_end_color" />
+        <attr name="s_solid_gradient_center_color" />
+        <attr name="s_solid_gradient_angle" />
+    </declare-styleable>
+    <declare-styleable name="SShapeConstraintLayout">
+        <attr name="s_corner_radius" />
+        <attr name="s_top_left_radius" />
+        <attr name="s_top_right_radius" />
+        <attr name="s_bottom_left_radius" />
+        <attr name="s_bottom_right_radius" />
+        <attr name="s_stroke_width" />
+        <attr name="s_stroke_gradient_start_color" />
+        <attr name="s_stroke_gradient_end_color" />
+        <attr name="s_stroke_gradient_center_color" />
+        <attr name="s_stroke_gradient_angle" />
+        <attr name="s_solid_gradient_start_color" />
+        <attr name="s_solid_gradient_end_color" />
+        <attr name="s_solid_gradient_center_color" />
+        <attr name="s_solid_gradient_angle" />
+    </declare-styleable>
+    <declare-styleable name="SShapeRelativeLayout">
+        <attr name="s_corner_radius" />
+        <attr name="s_top_left_radius" />
+        <attr name="s_top_right_radius" />
+        <attr name="s_bottom_left_radius" />
+        <attr name="s_bottom_right_radius" />
+        <attr name="s_stroke_width" />
+        <attr name="s_stroke_gradient_start_color" />
+        <attr name="s_stroke_gradient_end_color" />
+        <attr name="s_stroke_gradient_center_color" />
+        <attr name="s_stroke_gradient_angle" />
+        <attr name="s_solid_gradient_start_color" />
+        <attr name="s_solid_gradient_end_color" />
+        <attr name="s_solid_gradient_center_color" />
+        <attr name="s_solid_gradient_angle" />
+    </declare-styleable>
+    <!--==================描边渐变layout end==============-->
+</resources>
