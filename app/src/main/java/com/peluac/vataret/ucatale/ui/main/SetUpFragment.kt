@@ -1,0 +1,75 @@
+package com.peluac.vataret.ucatale.ui.main
+
+import android.content.Intent
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import com.peluac.vataret.ucatale.MainActivity
+import com.peluac.vataret.ucatale.databinding.FragmentSetUpBinding
+import com.peluac.vataret.ucatale.ui.ALikeWebView
+
+class SetUpFragment : Fragment() {
+    val binding: FragmentSetUpBinding by lazy {
+        FragmentSetUpBinding.inflate(layoutInflater)
+    }
+
+    companion object {
+        fun newInstance() = SetUpFragment()
+    }
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+    }
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        initView()
+        initData()
+        return binding.root
+    }
+
+    private fun initView() {
+        binding.run {
+            imgBack.setOnClickListener {  //页面回退
+                (activity as MainActivity).switchHomeFragment()
+            }
+            flFeedback.setOnClickListener {
+                val email = Intent(Intent.ACTION_SEND)
+                email.type = "application/octet-stream"
+                val emailReciver = arrayOf<String>("jordenehumols@hotmail.com")
+                email.putExtra(Intent.EXTRA_EMAIL, emailReciver)
+                activity?.startActivity(
+                    Intent.createChooser(
+                        email,
+                        "Please choose you client to send!"
+                    ).addFlags(
+                        Intent.FLAG_ACTIVITY_NEW_TASK
+                    )
+                )
+            }
+            flTermof.setOnClickListener {
+                startWebView("https://www.freeprivacypolicy.com/live/da2c60de-97e1-48ec-b283-1a4948c797e1")
+            }
+
+        }
+
+    }
+
+    fun startWebView(url: String) {
+        val intent: Intent = Intent(activity, ALikeWebView::class.java)
+        intent.putExtra("jumpUrl", url)
+        startActivity(intent)
+
+    }
+
+    private fun initData() {
+
+    }
+
+
+}

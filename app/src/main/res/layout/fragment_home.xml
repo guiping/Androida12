@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/home_bg"
+    android:orientation="vertical"
+    tools:context="com.peluac.vataret.ucatale.ui.main.HomeFragment"
+    tools:ignore="MissingConstraints">
+
+    <TextView
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="38dp"
+        android:lineHeight="30dp"
+        android:lineSpacingExtra="10dp"
+        android:text="@string/home_title"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout
+        android:id="@+id/ll_cartoon"
+        android:layout_width="147dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="161dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:s_corner_radius="23dp"
+
+        app:s_solid_gradient_center_color="#252525"
+        app:s_stroke_gradient_end_color="#FFFFFF"
+        app:s_stroke_gradient_start_color="#FFFFFF"
+        app:s_stroke_width="1dp">
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="3dp"
+            android:src="@mipmap/k1_h_d" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:text="@string/home_cartoon"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout>
+
+    <com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout
+        android:id="@+id/ll_classy"
+        android:layout_width="147dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="161dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:s_corner_radius="23dp"
+
+        app:s_solid_gradient_center_color="#252525"
+        app:s_stroke_gradient_end_color="#FFFFFF"
+        app:s_stroke_gradient_start_color="#FFFFFF"
+        app:s_stroke_width="1dp">
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="3dp"
+            android:src="@mipmap/qz1_h" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:text="@string/home_classy"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout>
+
+    <com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout
+        android:id="@+id/ll_youth"
+        android:layout_width="114dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="225dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:s_corner_radius="23dp"
+        app:s_solid_gradient_center_color="#252525"
+        app:s_stroke_gradient_end_color="#FFFFFF"
+        app:s_stroke_gradient_start_color="#FFFFFF"
+        app:s_stroke_width="1dp">
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="3dp"
+            android:src="@mipmap/nq1_h" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:text="@string/home_youth"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout>
+
+    <com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout
+        android:id="@+id/ll_cool"
+        android:layout_width="103dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="225dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:s_corner_radius="23dp"
+        app:s_solid_gradient_center_color="#252525"
+        app:s_stroke_gradient_end_color="#FFFFFF"
+        app:s_stroke_gradient_start_color="#FFFFFF"
+        app:s_stroke_width="1dp">
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="3dp"
+            android:src="@mipmap/c1_h" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:text="@string/home_cool"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout>
+
+    <com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout
+        android:id="@+id/ll_lively"
+        android:layout_width="117dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="225dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:s_corner_radius="23dp"
+        app:s_solid_gradient_center_color="#252525"
+        app:s_stroke_gradient_end_color="#FFFFFF"
+        app:s_stroke_gradient_start_color="#FFFFFF"
+        app:s_stroke_width="1dp">
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="3dp"
+            android:src="@mipmap/h1_h" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:text="@string/home_lively"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="295dp" />
+
+    <com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:s_corner_radius="43dp"
+        app:s_solid_gradient_center_color="@color/black"
+        app:s_solid_gradient_end_color="@color/black"
+        app:s_solid_gradient_start_color="@color/black">
+
+        <ImageView
+            android:id="@+id/img_setting"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@mipmap/setup" />
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="14dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:src="@mipmap/dian4" />
+
+        <ImageView
+            android:id="@+id/img_next"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@mipmap/arrow" />
+    </com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout>
+</RelativeLayout>

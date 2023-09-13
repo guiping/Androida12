@@ -33,4 +33,3 @@ class A02Application:Application() {
         AppsFlyerLib.getInstance().start(this)
     }
 }
-
