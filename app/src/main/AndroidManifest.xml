@@ -5,17 +5,37 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
+        android:dataExtractionRules="@xml/woybuzdosdisha_stiler_biyan"
+        android:fullBackupContent="@xml/woybuzdosdisha_enter_type"
         android:icon="@mipmap/ic_launcher1"
         android:label="@string/app_name"
-        android:name=".A02Application"
+        android:name=".WoybuZdosDishaBase"
         tools:replace="android:fullBackupContent"
         android:supportsRtl="true"
         android:theme="@style/Theme.Like_ping_project_23se03a12"
         tools:targetApi="31">
-        <activity
-            android:name="com.peluac.vataret.ucatale.MainActivity"
+        
+<activity
+            android:name="com.peluac.vataret.sticker.WoybuZdosDishaLinearManagerActivity"
+            android:screenOrientation="portrait" />
+
+<activity
+            android:name="com.peluac.vataret.sticker.WoybuZdosDishaHuakuaiJianbianseActivity"
+            android:screenOrientation="portrait" />
+
+<activity
+            android:name="com.peluac.vataret.sticker.WoybuZdosDishaEditCallbackActivity"
+            android:screenOrientation="portrait" />
+
+<activity
+            android:name="com.peluac.vataret.sticker.WoybuZdosDishaLayoutCategoriesActivity"
+            android:screenOrientation="portrait" />
+
+<activity
+            android:name="com.peluac.vataret.sticker.WoybuZdosDishaTransformActivity"
+            android:screenOrientation="portrait" />
+<activity
+            android:name="com.peluac.vataret.ucatale.WoybuZdosDishaSaturationActivity"
 
             android:exported="true">
             <intent-filter>
@@ -25,9 +45,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.peluac.vataret.ucatale.SelBoyAvatarActivity"
+            android:name="com.peluac.vataret.ucatale.WoybuZdosDishaColorsSetupActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ui.ALikeWebView" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.WoybuZdosDishaColorsView" android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

@@ -19,7 +19,7 @@ import android.provider.MediaStore
 import android.view.View
 import android.widget.ImageView
 import android.widget.Toast
-import com.peluac.vataret.ucatale.model.RecordInfo
+import com.peluac.vataret.ucatale.model.WoybuZdosDishaClick
 import java.io.File
 import java.io.IOException
 import java.io.OutputStream
@@ -100,7 +100,7 @@ object FilterUtil {
                 e.printStackTrace()
             }
         }
-        var recordInfo = com.peluac.vataret.ucatale.model.RecordInfo()
+        var recordInfo = com.peluac.vataret.ucatale.model.WoybuZdosDishaClick()
         recordInfo.coupleBitmapUri = uri?.toString()
         if (type == 1) {
             val shareIntent = Intent(Intent.ACTION_SEND)

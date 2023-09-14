@@ -39,7 +39,6 @@
         <enum name="BOTTOM_TOP" value="270" />
         <enum name="LEFT_BOTTOM_TOP_RIGHT" value="315" />
     </attr>
-
     <declare-styleable name="SShapeLinearLayout">
         <attr name="s_corner_radius" />
         <attr name="s_top_left_radius" />
