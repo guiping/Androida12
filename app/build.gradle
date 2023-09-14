@@ -4,6 +4,20 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('/Users/baoxing/studycode/bitmex2/app/A12jks.jks')
+            storePassword 'A123456'
+            keyAlias 'Bolesym'
+            keyPassword 'A123456'
+        }
+        release {
+            storeFile file('/Users/baoxing/studycode/bitmex2/app/Bolesym.jks')
+            storePassword 'Bolesym123456'
+            keyPassword 'Bolesym123456'
+            keyAlias 'Bolesym'
+        }
+    }
     namespace 'com.peluac.vataret.ucatale'
     compileSdk 33
 
