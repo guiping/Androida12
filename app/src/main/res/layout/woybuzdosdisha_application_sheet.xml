@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C0707"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="28dp"
+            android:src="@mipmap/arrow_left" />
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_layout_couple"
+            android:layout_width="64dp"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="20dp"
+            app:s_corner_radius="19dp"
+            app:s_stroke_gradient_center_color="#FE203A"
+            app:s_stroke_gradient_end_color="#FE203A"
+            app:s_stroke_gradient_start_color="#FE203A"
+            app:s_stroke_width="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+
+                android:text="@string/colorsActivityGlide"
+                android:textColor="#FE203A"
+                android:textSize="14dp" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:layout_width="6dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="1dp"
+            app:s_corner_radius="3dp"
+            app:s_solid_gradient_center_color="#FE203A"
+            app:s_solid_gradient_end_color="#FE203A"
+            app:s_solid_gradient_start_color="#FE203A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/delete_gAndroid"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_sporty1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_gradient_center_color="@color/white"
+            app:s_stroke_gradient_end_color="@color/white"
+            app:s_stroke_gradient_start_color="@color/white"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_sporty1"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_sporty2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_sporty2"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_sporty3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_sporty3"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_sporty4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_sporty4"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_sporty5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_sporty5"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:layout_width="6dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="1dp"
+            app:s_corner_radius="3dp"
+            app:s_solid_gradient_center_color="#FE203A"
+            app:s_solid_gradient_end_color="#FE203A"
+            app:s_solid_gradient_start_color="#FE203A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/testLayoutRounded"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_handsome1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_handsome1"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_handsome2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_handsome2"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_handsome3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_handsome3"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_handsome4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_handsome4"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_handsome5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_handsome5"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:layout_width="6dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="1dp"
+            app:s_corner_radius="3dp"
+            app:s_solid_gradient_center_color="#FE203A"
+            app:s_solid_gradient_end_color="#FE203A"
+            app:s_solid_gradient_start_color="#FE203A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/modityAvatarLauncher"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_cool_boy1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_cool_boy1"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_cool_boy2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_cool_boy2"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_cool_boy3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_cool_boy3"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_cool_boy4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_cool_boy4"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_cool_boy5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/img_cool_boy5"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:layout_width="6dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="1dp"
+            app:s_corner_radius="3dp"
+            app:s_solid_gradient_center_color="#FE203A"
+            app:s_solid_gradient_end_color="#FE203A"
+            app:s_solid_gradient_start_color="#FE203A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/attrsCoupleNosel"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_young_boy1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/young_boy1"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_young_boy2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/young_boy2"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_young_boy3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/young_boy3"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_young_boy4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/young_boy4"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+
+        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            android:id="@+id/fl_young_boy5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            app:s_corner_radius="35dp"
+            app:s_stroke_width="1dp">
+
+            <ImageView
+                android:id="@+id/young_boy5"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center" />
+        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+    </LinearLayout>
+</LinearLayout>
