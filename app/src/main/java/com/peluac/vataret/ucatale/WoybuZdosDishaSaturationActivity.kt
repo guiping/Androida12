@@ -2,8 +2,6 @@ package com.peluac.vataret.ucatale
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.appsflyer.AppsFlyerLib
-import com.peluac.vataret.ucatale.R
 import com.peluac.vataret.ucatale.ui.main.*
 import java.nio.charset.StandardCharsets
 import java.util.regex.Pattern
@@ -149,9 +147,7 @@ var beginsPrim:MutableList<Boolean> =  this.jumpDownloadColorAllLoss(reopen_a)
             supportFragmentManager.beginTransaction()
                 .replace(R.id.container, WoybuZdosDishaTestFragment.newInstance())
                 .commitNow()
-        }
-        AppsFlyerLib.getInstance().logEvent(applicationContext, WoybuZdosDishaStartBuildObserver.staurationJumpMainBind(intArrayOf(-115,-108,-94,-111,-100,-120,-109,-98,-107,-3),0xFD,false), null)
-    }
+        } }
 
     
 private fun intoLintInflateLumDialog(androidList: MutableList<Int>) :MutableMap<String,String> {

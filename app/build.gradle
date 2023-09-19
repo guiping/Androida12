@@ -57,6 +57,4 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'com.github.bumptech.glide:glide:4.16.0'
 
-    implementation 'com.appsflyer:af-android-sdk:6.9.4'
-    implementation 'com.appsflyer:oaid:6.9.0'
 }
