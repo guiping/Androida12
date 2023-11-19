@@ -2,12 +2,12 @@
     <!-- Base application theme. -->
     <style name="Theme.Like_ping_project_23se03a12" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/register_l8Avatar</item>
-        <item name="colorPrimaryVariant">@color/layoutFilter</item>
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/colorsTiezhi</item>
-        <item name="colorSecondaryVariant">@color/colorsTiezhi</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
