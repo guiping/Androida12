@@ -53,7 +53,7 @@ class SetUpFragment : Fragment() {
                 )
             }
             flTermof.setOnClickListener {
-                startWebView("https://www.freeprivacypolicy.com/live/da2c60de-97e1-48ec-b283-1a4948c797e1")
+                startWebView("https://coupavatar.github.io/newavatar/privacypolicy.html")
             }
 
         }
