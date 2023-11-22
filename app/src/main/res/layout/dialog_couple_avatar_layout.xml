@@ -59,7 +59,7 @@
         android:textColor="@color/white"
         android:textSize="28dp" />
 
-    <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+    <com.gwesupera.goldbole.view.SShapeFrameLayout
         android:id="@+id/fl_layout_download"
         android:layout_width="158dp"
         android:layout_height="38dp"
@@ -80,9 +80,9 @@
             android:text="@string/download"
             android:textColor="#FFFFFF"
             android:textSize="14dp" />
-    </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+    </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-    <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+    <com.gwesupera.goldbole.view.SShapeFrameLayout
         android:id="@+id/fl_layout_change_avatar"
         android:layout_width="158dp"
         android:layout_height="38dp"
@@ -102,7 +102,7 @@
             android:text="@string/change_avatar"
             android:textColor="#FE203A"
             android:textSize="14dp" />
-    </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+    </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
     <ImageView
         android:id="@+id/close"

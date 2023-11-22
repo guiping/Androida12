@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@mipmap/home_bg"
     android:orientation="vertical"
-    tools:context="com.peluac.vataret.ucatale.ui.main.HomeFragment"
+    tools:context=".ui.main.HomeFragment"
     tools:ignore="MissingConstraints">
 
     <TextView
@@ -23,7 +23,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout
+    <com.gwesupera.goldbole.ui.view.SShapeLinearLayout
         android:id="@+id/ll_cartoon"
         android:layout_width="147dp"
         android:layout_height="46dp"
@@ -52,9 +52,9 @@
             android:text="@string/home_cartoon"
             android:textColor="#FFFFFF"
             android:textSize="18dp" />
-    </com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout>
+    </com.gwesupera.goldbole.ui.view.SShapeLinearLayout>
 
-    <com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout
+    <com.gwesupera.goldbole.ui.view.SShapeLinearLayout
         android:id="@+id/ll_classy"
         android:layout_width="147dp"
         android:layout_height="46dp"
@@ -83,9 +83,9 @@
             android:text="@string/home_classy"
             android:textColor="#FFFFFF"
             android:textSize="18dp" />
-    </com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout>
+    </com.gwesupera.goldbole.ui.view.SShapeLinearLayout>
 
-    <com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout
+    <com.gwesupera.goldbole.ui.view.SShapeLinearLayout
         android:id="@+id/ll_youth"
         android:layout_width="114dp"
         android:layout_height="46dp"
@@ -113,9 +113,9 @@
             android:text="@string/home_youth"
             android:textColor="#FFFFFF"
             android:textSize="18dp" />
-    </com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout>
+    </com.gwesupera.goldbole.ui.view.SShapeLinearLayout>
 
-    <com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout
+    <com.gwesupera.goldbole.ui.view.SShapeLinearLayout
         android:id="@+id/ll_cool"
         android:layout_width="103dp"
         android:layout_height="46dp"
@@ -143,9 +143,9 @@
             android:text="@string/home_cool"
             android:textColor="#FFFFFF"
             android:textSize="18dp" />
-    </com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout>
+    </com.gwesupera.goldbole.ui.view.SShapeLinearLayout>
 
-    <com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout
+    <com.gwesupera.goldbole.ui.view.SShapeLinearLayout
         android:id="@+id/ll_lively"
         android:layout_width="117dp"
         android:layout_height="46dp"
@@ -173,7 +173,7 @@
             android:text="@string/home_lively"
             android:textColor="#FFFFFF"
             android:textSize="18dp" />
-    </com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout>
+    </com.gwesupera.goldbole.ui.view.SShapeLinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_avatar"
@@ -181,7 +181,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="295dp" />
 
-    <com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout
+    <com.gwesupera.goldbole.ui.view.SShapeLinearLayout
         android:layout_width="wrap_content"
         android:layout_height="85dp"
         android:layout_alignParentBottom="true"
@@ -214,5 +214,5 @@
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:src="@mipmap/arrow" />
-    </com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout>
+    </com.gwesupera.goldbole.ui.view.SShapeLinearLayout>
 </RelativeLayout>

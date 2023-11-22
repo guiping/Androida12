@@ -10,7 +10,7 @@
         android:layout_width="204dp"
         android:src="@mipmap/h1_h_d"
         android:layout_height="204dp"/>
-    <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+    <com.gwesupera.goldbole.view.SShapeFrameLayout
         android:layout_width="133dp"
         android:layout_height="40dp"
         app:s_solid_gradient_center_color="#FFFFFF"
@@ -27,6 +27,6 @@
             android:layout_gravity="center"
             android:textSize="20dp"
             android:layout_height="wrap_content"/>
-    </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+    </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
 </RelativeLayout>

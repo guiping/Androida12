@@ -8,9 +8,8 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher1"
+        android:icon="@mipmap/logo"
         android:label="@string/app_name"
-        android:name=".A02Application"
         tools:replace="android:fullBackupContent"
         android:supportsRtl="true"
         android:theme="@style/Theme.Like_ping_project_23se03a12"
@@ -18,18 +17,16 @@
         <activity android:name=".ui.main.SplashActivity"  android:exported="true"  android:configChanges="orientation|screenSize|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".ui.main.WebActivity" android:launchMode="singleTop"  android:configChanges="orientation|screenSize|keyboardHidden"/>
         <activity
-            android:name="com.peluac.vataret.ucatale.MainActivity"
+            android:name=".MainActivity"
            >
-
         </activity>
         <activity
-            android:name="com.peluac.vataret.ucatale.SelBoyAvatarActivity"
+            android:name=".SelBoyAvatarActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".ui.ALikeWebView" android:screenOrientation="portrait"/>
     </application>

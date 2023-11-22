@@ -18,7 +18,7 @@
             android:paddingTop="28dp"
             android:src="@mipmap/arrow_left" />
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_layout_couple"
             android:layout_width="64dp"
             android:layout_height="38dp"
@@ -40,7 +40,7 @@
                 android:text="@string/sure"
                 android:textColor="#FE203A"
                 android:textSize="14dp" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
     </RelativeLayout>
 
     <LinearLayout
@@ -51,7 +51,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:layout_width="6dp"
             android:layout_height="15dp"
             android:layout_marginTop="1dp"
@@ -76,7 +76,7 @@
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_sporty1"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -91,9 +91,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_sporty2"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -106,9 +106,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_sporty3"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -121,9 +121,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_sporty4"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -136,9 +136,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_sporty5"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -151,7 +151,7 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
     </LinearLayout>
 
 
@@ -163,7 +163,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:layout_width="6dp"
             android:layout_height="15dp"
             android:layout_marginTop="1dp"
@@ -188,7 +188,7 @@
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_handsome1"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -201,9 +201,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_handsome2"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -216,9 +216,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_handsome3"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -231,9 +231,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_handsome4"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -246,9 +246,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_handsome5"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -261,7 +261,7 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
     </LinearLayout>
 
 
@@ -273,7 +273,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:layout_width="6dp"
             android:layout_height="15dp"
             android:layout_marginTop="1dp"
@@ -298,7 +298,7 @@
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_cool_boy1"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -311,9 +311,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_cool_boy2"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -326,9 +326,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_cool_boy3"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -341,9 +341,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_cool_boy4"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -356,9 +356,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_cool_boy5"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -371,7 +371,7 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
     </LinearLayout>
 
 
@@ -383,7 +383,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:layout_width="6dp"
             android:layout_height="15dp"
             android:layout_marginTop="1dp"
@@ -408,7 +408,7 @@
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_young_boy1"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -421,9 +421,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_young_boy2"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -436,9 +436,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_young_boy3"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -451,9 +451,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_young_boy4"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -466,9 +466,9 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_young_boy5"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -481,6 +481,6 @@
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_gravity="center" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
     </LinearLayout>
 </LinearLayout>

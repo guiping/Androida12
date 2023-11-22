@@ -35,9 +35,9 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="88dp"
-        android:src="@mipmap/ic_launcher1" />
+        android:src="@mipmap/logo" />
 
-    <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+    <com.gwesupera.goldbole.view.SShapeFrameLayout
         android:id="@+id/fl_feedback"
         android:layout_width="280dp"
         android:layout_height="60dp"
@@ -55,9 +55,9 @@
             android:text="@string/set_up_feedback"
             android:textColor="@color/white"
             android:textSize="16dp" />
-    </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+    </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-    <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+    <com.gwesupera.goldbole.view.SShapeFrameLayout
         android:id="@+id/fl_termof"
         android:layout_width="280dp"
         android:layout_height="60dp"
@@ -75,5 +75,5 @@
             android:text="@string/set_up_termof_use"
             android:textColor="@color/white"
             android:textSize="16dp" />
-    </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+    </com.gwesupera.goldbole.view.SShapeFrameLayout>
 </LinearLayout>

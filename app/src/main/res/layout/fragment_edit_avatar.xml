@@ -18,7 +18,7 @@
             android:paddingTop="28dp"
             android:src="@mipmap/arrow_left" />
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_layout_couple"
             android:layout_width="158dp"
             android:layout_height="38dp"
@@ -41,9 +41,9 @@
                 android:text="@string/couple_avatar"
                 android:textColor="#FFFFFF"
                 android:textSize="14dp" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_layout_save"
             android:layout_width="64dp"
             android:layout_height="38dp"
@@ -63,7 +63,7 @@
                 android:text="@string/save"
                 android:textColor="#FE203A"
                 android:textSize="14dp" />
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
     </RelativeLayout>
 
     <FrameLayout
@@ -80,7 +80,7 @@
             android:layout_width="344dp"
             android:layout_height="344dp" />
         </FrameLayout>
-        <com.peluac.vataret.ucatale.view.StickerView
+        <com.gwesupera.goldbole.view.StickerView
             android:id="@+id/sticker_view"
             android:layout_width="344dp"
             android:layout_height="344dp" />
@@ -102,7 +102,7 @@
             android:layout_width="match_parent"
             android:layout_height="24dp">
 
-            <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            <com.gwesupera.goldbole.view.SShapeFrameLayout
                 android:id="@+id/fl_baohedu_start"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -141,7 +141,7 @@
             android:layout_height="24dp"
             android:layout_marginTop="30dp">
 
-            <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+            <com.gwesupera.goldbole.view.SShapeFrameLayout
                 android:id="@+id/fl_vignette_start"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
@@ -272,7 +272,7 @@
             android:layout_marginTop="10dp" />
     </LinearLayout>
 
-    <com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout
+    <com.gwesupera.goldbole.ui.view.SShapeLinearLayout
         android:layout_width="wrap_content"
         android:layout_height="85dp"
         android:layout_alignParentBottom="true"
@@ -314,5 +314,5 @@
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:src="@mipmap/baohedu_hei" />
-    </com.peluac.vataret.ucatale.ui.view.SShapeLinearLayout>
+    </com.gwesupera.goldbole.ui.view.SShapeLinearLayout>
 </RelativeLayout>

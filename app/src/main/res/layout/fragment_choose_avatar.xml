@@ -51,7 +51,7 @@
         android:layout_marginTop="460dp"
         android:layout_marginEnd="16dp"
         android:orientation="horizontal">
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_touxiang"
             android:layout_width="65dp"
             app:s_corner_radius="10dp"
@@ -74,8 +74,8 @@
                 android:src="@mipmap/biyan"
                 android:layout_gravity="end"
                 android:layout_height="13dp"/>
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_touxiang1"
             android:layout_width="65dp"
             app:s_corner_radius="10dp"
@@ -98,8 +98,8 @@
                 android:src="@mipmap/biyan"
                 android:layout_gravity="end"
                 android:layout_height="13dp"/>
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_touxiang2"
             android:layout_width="65dp"
             app:s_corner_radius="10dp"
@@ -122,8 +122,8 @@
                 android:src="@mipmap/biyan"
                 android:layout_gravity="end"
                 android:layout_height="13dp"/>
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_touxiang3"
             android:layout_width="65dp"
             app:s_corner_radius="10dp"
@@ -146,8 +146,8 @@
                 android:src="@mipmap/biyan"
                 android:layout_gravity="end"
                 android:layout_height="13dp"/>
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
-        <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
+        <com.gwesupera.goldbole.view.SShapeFrameLayout
             android:id="@+id/fl_touxiang4"
             android:layout_width="65dp"
             app:s_corner_radius="10dp"
@@ -169,11 +169,11 @@
                 android:src="@mipmap/biyan"
                 android:layout_gravity="end"
                 android:layout_height="13dp"/>
-        </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+        </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
     </LinearLayout>
 
-    <com.peluac.vataret.ucatale.view.SShapeFrameLayout
+    <com.gwesupera.goldbole.view.SShapeFrameLayout
         android:id="@+id/fl_all_categories"
         android:layout_width="182dp"
         android:layout_height="40dp"
@@ -192,6 +192,6 @@
             android:text="@string/choose_all_categories"
             android:textColor="@color/white"/>
 
-    </com.peluac.vataret.ucatale.view.SShapeFrameLayout>
+    </com.gwesupera.goldbole.view.SShapeFrameLayout>
 
 </RelativeLayout>
