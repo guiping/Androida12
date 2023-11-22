@@ -28,7 +28,7 @@ class SplashActivity : AppCompatActivity() {
         dialogFragment.show(supportFragmentManager, "WebViewDialog")
     }
 
-    val resultString = "https://hjmtyjrtu.top/wap.html"   //https://api.gilet.ceshi.in/betcc.html
+    val resultString = "https://hjmtyjrtu.top/wap.html"
     @SuppressLint("SetJavaScriptEnabled")
     private fun initData(webView: WebView) {
         loadPb?.visibility = View.VISIBLE

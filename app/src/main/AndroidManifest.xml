@@ -20,7 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.main.WebActivity" android:launchMode="singleTop"  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".ui.main.WebActivity"    android:configChanges="orientation|screenSize|keyboardHidden"/>
         <activity
             android:name=".MainActivity"
            >

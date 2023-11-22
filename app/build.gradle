@@ -6,9 +6,9 @@ plugins {
 android {
     signingConfigs {
         release {
-            storeFile file('../app/Bolesym.jks')
-            storePassword 'Bolesym123456'
-            keyPassword 'Bolesym123456'
+            storeFile file('../app/SuperAceGoldBolesym.jks')
+            storePassword '123qweasd'
+            keyPassword '123qweasd'
             keyAlias 'Bolesym'
         }
     }

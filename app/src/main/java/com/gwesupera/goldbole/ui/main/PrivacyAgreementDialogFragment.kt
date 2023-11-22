@@ -37,7 +37,6 @@ class PrivacyAgreementDialogFragment : DialogFragment() {
         val view = LayoutInflater.from(context).inflate(R.layout.dialog_privacy_agreement, null)
         webView = view.findViewById(R.id.wb_load_privacy_agreement)
         setupWebView()
-
         val dialog = Dialog(requireContext(), R.style.FullScreenDialogStyle)
         dialog.setContentView(view)
 
